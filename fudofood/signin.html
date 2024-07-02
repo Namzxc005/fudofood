@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/signin.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Sign in</title>
+</head>
+
+<body>
+    <div class="signin__container">
+
+        <header>
+            <div class="signin__banner">
+                <img src="src/img/signin/Fudo..png" alt="">
+            </div>
+        </header>
+
+        <main>
+            <div class="signin__content">
+                <div class="hello">
+                    <p>Welcome back</p>
+                    <h1>Login to your account</h1>
+                </div>
+                <form action="" class="signin__form" method="post">
+                    <legend>Email</legend>
+                    <input type="text" class="email__signin" placeholder="John.snow@gmail.com">
+                    <span class="error__email_signin signin__error"></span>
+                    <br>
+                    <legend>Password</legend>
+                    <input type="password" class="password__signin" placeholder="*********">
+                    <span class="error__password_signin signin__error"></span>
+                    <br>
+                    <div class="signin__btn">
+                        <button type="submit" class="login">Login now</button>
+                        <br>
+                        <button type="submit" class="sign_in">
+                            <p>
+                                <img src="src/img/signin/Google.png" alt="">
+                            <span>Or sign-in with google</span>
+                            </p>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div class="signin__more">
+                <a href="" class="forgot">Forgot password?</a>
+                <br>
+                <a href="signup.html" class="create_join"><span>Don't have an account?</span> Join free today</a>
+            </div>
+        </footer>
+
+    </div>
+    <script src="./src/js/signin.js"></script>
+</body>
+
+</html>

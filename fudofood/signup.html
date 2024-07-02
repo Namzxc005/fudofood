@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/signup.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div class="signup__container">
+
+        <header>
+            <div class="signup__banner">
+                <img src="src/img/signin/Fudo..png" alt="">
+            </div>
+        </header>
+
+        <main>
+            <div class="signup__content">
+                <div class="hi">
+                    <p>Welcome to Fudo</p>
+                    <h1>Create Account</h1>
+                </div>
+                <form action="" class="signup__form" method="post">
+                    <legend>Email</legend>
+                    <input type="text" class="signup__email" placeholder="John.snow@gmail.com">
+                    <span class="error__email_signup signup__error"></span>
+                    <br>
+                    <legend>Fullname</legend>
+                    <input type="text" class="signup__fullname" placeholder="John.snow">
+                    <span class="error__fullname_signup signup__error"></span>
+                    <br>
+                    <legend>Password</legend>
+                    <input type="password" class="signup__password" placeholder="*********">
+                    <span class="error__password_signup signup__error"></span>
+                    <br>
+                    <legend>Re-Password</legend>
+                    <input type="password" class="signup__repassword" placeholder="*********">
+                    <span class="error__repassword_signup signup__error"></span>
+                    <br>
+                    <button type="submit" class="create">Create Now</button>
+                </form>
+            </div>
+        </main>
+
+        <footer></footer>
+
+    </div>
+    <script src="./src/js/signup.js"></script>
+</body>
+
+</html>
